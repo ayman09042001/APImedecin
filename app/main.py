@@ -151,6 +151,4 @@ async def supprimer_horaire(id: int, horaire_id: int):
         conn.close()
     return {"message": "Horaire supprimé avec succès"}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host='127.0.0.1', port=8803)
+
